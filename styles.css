@@ -287,6 +287,11 @@ h2 { margin-top: 16px; font-size: clamp(32px, 4vw, 50px); line-height: 1.08; let
 .facts li { position: relative; padding-left: 28px; color: var(--muted); font-size: 16px; }
 .facts li::before { content: ""; position: absolute; left: 0; top: .5em; width: 14px; height: 8px; border-left: 2px solid var(--lime); border-bottom: 2px solid var(--lime); transform: rotate(-45deg) scale(.9); }
 
+.in-link { display: inline-block; margin-top: 24px; color: var(--mint); font-weight: 700; font-size: 16px; border-bottom: 1px solid rgba(45, 212, 191, .4); padding-bottom: 2px; transition: color .2s, border-color .2s; }
+.in-link:hover, .in-link:focus-visible { color: var(--lime); border-color: var(--lime); }
+.in-foot { color: var(--muted); }
+.in-foot:hover, .in-foot:focus-visible { color: var(--lime); }
+
 /* ---------- Contacto ---------- */
 .cta { position: relative; overflow: hidden; padding: 84px 40px; border: 1px solid var(--line-2); border-radius: 40px; text-align: center; background: radial-gradient(70% 90% at 50% 0, rgba(45, 212, 191, .28), transparent 70%), radial-gradient(50% 60% at 90% 100%, rgba(190, 242, 100, .14), transparent 70%), var(--surface); }
 .cta h2 { max-width: 760px; margin: 16px auto 0; }
