@@ -1,86 +1,279 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>VALTUM | Transformando tus datos en valor</title>
-    <meta name="description" content="Informes, dashboards y soluciones de Business Intelligence para convertir los datos de tu empresa en mejores decisiones." />
-    <meta name="theme-color" content="#082f2d" />
-    <meta property="og:title" content="VALTUM | Transformando tus datos en valor" />
-    <meta property="og:description" content="Business Intelligence, dashboards y automatización de datos para mejores decisiones." />
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="es_CL" />
-    <link rel="canonical" href="https://valtum.cl/" />
-    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <a class="brand" href="#inicio" aria-label="VALTUM, inicio">
-        <span class="brand-mark">V</span>
-        <span><strong>VALTUM</strong><small>Transformando tus datos en valor</small></span>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VALTUM | Consultoría en Business Intelligence y Power BI</title>
+  <meta name="description" content="VALTUM es la consultoría de Juan Pablo Acevedo: informes y modelos de datos en Power BI, y capacitación para que tu equipo los use con autonomía.">
+  <meta name="theme-color" content="#041615">
+  <meta property="og:title" content="VALTUM | Transformando tus datos en valor">
+  <meta property="og:description" content="Informes y modelos de datos en Power BI, con capacitación para tu equipo.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_CL">
+  <meta property="og:url" content="https://valtum.cl/">
+  <link rel="canonical" href="https://valtum.cl/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js')</script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "VALTUM",
+    "url": "https://valtum.cl/",
+    "slogan": "Transformando tus datos en valor",
+    "description": "Consultoría en Business Intelligence: informes y modelos de datos en Power BI, y capacitación para equipos.",
+    "areaServed": "CL",
+    "founder": { "@type": "Person", "name": "Juan Pablo Acevedo" }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header" id="top">
+    <div class="wrap header-in">
+      <a class="brand" href="#top" aria-label="VALTUM, inicio">
+        <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="16" fill="url(#bm)"/><defs><linearGradient id="bm" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d9f99d"/><stop offset="1" stop-color="#2dd4bf"/></linearGradient></defs><path d="M15 16h10l7 28 7-28h10L38 50H26L15 16Z" fill="#06302d"/></svg>
+        <span class="brand-text"><strong>VALTUM</strong><small>Transformando tus datos en valor</small></span>
       </a>
-      <nav aria-label="Navegación principal">
-        <a href="#servicios">Servicios</a><a href="#enfoque">Enfoque</a><a href="#contacto">Contacto</a>
+      <nav class="nav" aria-label="Principal">
+        <a href="#demo">Demo</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#caso">Caso</a>
+        <a href="#capacitacion">Capacitación</a>
+        <a href="#quien">Quién soy</a>
       </nav>
-      <a class="button button-small" href="mailto:contacto@valtum.cl">Conversemos</a>
-    </header>
+      <a class="btn btn-sm" href="#contacto">Conversemos</a>
+    </div>
+  </header>
 
-    <main>
-      <section class="hero" id="inicio">
+  <main id="contenido">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="wrap hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow">Business Intelligence para decisiones más claras</p>
-          <p class="slogan">Transformando tus datos en valor</p>
-          <h1>Convierte los datos de tu empresa en mejores decisiones.</h1>
-          <p class="lead">Diseñamos informes, dashboards y soluciones de Business Intelligence para comprender el negocio y actuar con información confiable.</p>
-          <div class="actions"><a class="button" href="mailto:contacto@valtum.cl">Cuéntanos tu desafío <span aria-hidden="true">→</span></a><a class="button button-outline" href="#servicios">Ver servicios</a></div>
+          <p class="eyebrow reveal"><span class="pulse"></span> Consultoría en Business Intelligence</p>
+          <h1 class="reveal">Tus datos, convertidos en decisiones que se <em>entienden</em>.</h1>
+          <p class="lead reveal">Diseño informes y modelos de datos en Power BI, y capacito a tu equipo para que los haga suyos. Un informe vale lo que se usa.</p>
+          <div class="actions reveal">
+            <a class="btn" href="#demo">Prueba un informe interactivo <span aria-hidden="true">↓</span></a>
+            <a class="btn btn-ghost" href="#contacto">Cuéntame tu desafío</a>
+          </div>
+          <ul class="tools reveal" aria-label="Herramientas">
+            <li>Power BI</li><li>Power Query</li><li>DAX</li><li>Modelado de datos</li><li>Capacitación</li>
+          </ul>
         </div>
-        <div class="dashboard" aria-label="Ejemplo visual de un dashboard de Business Intelligence">
-          <div class="dashboard-head">
-            <div><small>RESUMEN EJECUTIVO</small><strong>Visión del negocio</strong></div>
-            <span class="live"><i></i> Actualizado</span>
-          </div>
-          <div class="kpis">
-            <div><small>Ventas</small><strong>$84,2 M</strong><span>↗ 12,4%</span></div>
-            <div><small>Cumplimiento</small><strong>94,8%</strong><span>↗ 4,1%</span></div>
-            <div><small>Margen</small><strong>31,6%</strong><span>↗ 2,7%</span></div>
-          </div>
-          <div class="chart-card">
-            <div class="chart-title"><div><small>EVOLUCIÓN</small><strong>Resultado mensual</strong></div><span>Últimos 6 meses</span></div>
-            <svg class="trend-chart" viewBox="0 0 520 160" role="img" aria-label="Tendencia ascendente durante seis meses">
-              <defs><linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2dd4bf" stop-opacity=".36"/><stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/></linearGradient></defs>
-              <g class="grid"><line x1="12" y1="28" x2="508" y2="28"/><line x1="12" y1="78" x2="508" y2="78"/><line x1="12" y1="128" x2="508" y2="128"/></g>
-              <path class="area" d="M12 121 C55 114 83 90 116 97 S181 116 218 83 S280 55 318 66 S388 86 420 48 S478 25 508 19 L508 145 L12 145 Z"/>
-              <path class="curve" d="M12 121 C55 114 83 90 116 97 S181 116 218 83 S280 55 318 66 S388 86 420 48 S478 25 508 19"/>
-              <g class="points"><circle cx="12" cy="121" r="5"/><circle cx="116" cy="97" r="5"/><circle cx="218" cy="83" r="5"/><circle cx="318" cy="66" r="5"/><circle cx="420" cy="48" r="5"/><circle cx="508" cy="19" r="5"/></g>
+
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="glass hv-main">
+            <div class="hv-head"><span class="live"><i></i> Resumen ejecutivo</span><em>Ejemplo</em></div>
+            <div class="hv-kpis">
+              <div><small>Ventas</small><b data-count="1452" data-prefix="$" data-suffix=" M">$0 M</b><i class="up">▲ 8,4 %</i></div>
+              <div><small>Meta</small><b data-count="96.4" data-decimals="1" data-suffix=" %">0 %</b><i class="up">▲ 2,1 pp</i></div>
+              <div><small>Margen</small><b data-count="33.8" data-decimals="1" data-suffix=" %">0 %</b><i class="up">▲ 0,9 pp</i></div>
+            </div>
+            <svg class="hv-spark" viewBox="0 0 360 110" preserveAspectRatio="none">
+              <defs><linearGradient id="hvg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2dd4bf" stop-opacity=".28"/><stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/></linearGradient></defs>
+              <path class="hv-area" d="M0 84 L40 74 L80 80 L120 58 L160 64 L200 44 L240 52 L280 30 L320 36 L360 14 L360 110 L0 110 Z" fill="url(#hvg)"/>
+              <path class="hv-line" pathLength="1" d="M0 84 L40 74 L80 80 L120 58 L160 64 L200 44 L240 52 L280 30 L320 36 L360 14"/>
+              <circle class="hv-dot" cx="358" cy="14" r="5"/>
             </svg>
-            <div class="months"><span>Abr</span><span>May</span><span>Jun</span><span>Jul</span><span>Ago</span><span>Sep</span></div>
+            <div class="hv-bars">
+              <div><span>Metropolitana</span><i style="--w:100%"></i></div>
+              <div><span>Centro</span><i style="--w:58%"></i></div>
+              <div><span>Norte</span><i style="--w:44%"></i></div>
+              <div><span>Sur</span><i style="--w:37%"></i></div>
+            </div>
           </div>
-          <div class="dashboard-foot"><span><i></i> Datos integrados</span><strong>Información clara para decidir mejor.</strong></div>
+          <div class="glass hv-chip hv-chip-1"><small>Filtro aplicado</small><strong>Región: Centro</strong></div>
+          <div class="glass hv-chip hv-chip-2"><small>Actualizado</small><strong>hoy, 07:00</strong></div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="section" id="servicios">
-        <p class="section-label">Lo que hacemos</p>
-        <h2>Soluciones de datos para desafíos reales.</h2>
+    <!-- DEMO INTERACTIVA -->
+    <section class="section demo" id="demo">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="kicker">Demostración interactiva</p>
+          <h2>Así se siente un informe bien hecho.</h2>
+          <p class="sub">Cambia el período, haz clic en una barra, pasa el cursor sobre el gráfico. Es el mismo filtrado cruzado que tendrá tu informe en Power BI. Los datos son ficticios.</p>
+        </div>
+
+        <div class="dash reveal" id="dash">
+          <div class="dash-top">
+            <div class="tabs" role="tablist" aria-label="Ejemplos de informe">
+              <button class="tab" role="tab" aria-selected="true" data-ds="ventas">Ventas comerciales</button>
+              <button class="tab" role="tab" aria-selected="false" data-ds="personas">Dotación y rotación</button>
+            </div>
+            <div class="seg" role="group" aria-label="Período">
+              <button type="button" data-win="3" aria-pressed="false">3 M</button>
+              <button type="button" data-win="6" aria-pressed="false">6 M</button>
+              <button type="button" data-win="12" aria-pressed="true">12 M</button>
+            </div>
+          </div>
+
+          <div class="chips" id="chips" aria-live="polite"></div>
+
+          <div class="kpis" id="kpis"></div>
+
+          <div class="dash-grid">
+            <section class="card trend" aria-labelledby="trendTitle">
+              <header class="card-head">
+                <div><h3 id="trendTitle">Evolución</h3><p id="trendSub"></p></div>
+                <button class="mini" id="viewBtn" type="button" aria-pressed="false">Ver como tabla</button>
+              </header>
+              <div class="trend-body" id="trendBody"></div>
+            </section>
+
+            <section class="card bars" data-dim="0" aria-labelledby="barsT0">
+              <header class="card-head"><div><h3 id="barsT0"></h3><p>Clic para filtrar</p></div></header>
+              <div class="bar-list"></div>
+            </section>
+
+            <section class="card bars" data-dim="1" aria-labelledby="barsT1">
+              <header class="card-head"><div><h3 id="barsT1"></h3><p>Clic para filtrar</p></div></header>
+              <div class="bar-list"></div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section class="section" id="servicios">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="kicker">Servicios</p>
+          <h2>Lo que puedo hacer por tu empresa.</h2>
+        </div>
         <div class="cards">
-          <article><span>01</span><h3>Informes y dashboards</h3><p>Soluciones de Power BI que convierten información dispersa en indicadores claros y accionables.</p></article>
-          <article><span>02</span><h3>Integración y automatización</h3><p>Organizamos, conectamos y preparamos tus datos para reducir tareas manuales y mejorar su confiabilidad.</p></article>
-          <article><span>03</span><h3>Consultoría BI</h3><p>Definimos contigo los indicadores y análisis que ayudan a comprender y gestionar el negocio.</p></article>
+          <article class="svc reveal">
+            <span class="svc-n">01</span>
+            <h3>Informes y dashboards</h3>
+            <p>Informes en Power BI pensados para quien los va a usar: pocos indicadores, bien elegidos, y una navegación que no necesita manual.</p>
+          </article>
+          <article class="svc reveal">
+            <span class="svc-n">02</span>
+            <h3>Modelo de datos y automatización</h3>
+            <p>Ordeno y conecto tus fuentes en un modelo confiable, para que los números cuadren siempre y nadie vuelva a armar el mismo reporte a mano.</p>
+          </article>
+          <article class="svc reveal">
+            <span class="svc-n">03</span>
+            <h3>Diagnóstico de datos</h3>
+            <p>Si aún no sabes qué medir o por dónde empezar, parto contigo definiendo las preguntas del negocio antes de tocar ninguna herramienta.</p>
+          </article>
         </div>
-      </section>
 
-      <section class="approach" id="enfoque">
-        <div><p class="section-label">Nuestro enfoque</p><h2>Primero entendemos. Después construimos.</h2></div>
-        <div class="approach-copy"><p>Una solución de datos comienza entendiendo las preguntas del negocio, no eligiendo una herramienta.</p><p>Desarrollamos soluciones proporcionadas a cada necesidad y, cuando aporta valor, capacitamos a los equipos para que puedan aprovecharlas con autonomía.</p><strong>Capacitación como complemento de la solución.</strong></div>
-      </section>
+        <ol class="steps reveal" aria-label="Cómo trabajo">
+          <li><b>1</b><h4>Entender</h4><p>Qué decisión quieres tomar mejor.</p></li>
+          <li><b>2</b><h4>Ordenar</h4><p>Modelo de datos limpio y verificable.</p></li>
+          <li><b>3</b><h4>Construir</h4><p>Informe claro, validado contigo.</p></li>
+          <li><b>4</b><h4>Entregar y capacitar</h4><p>Tu equipo queda autónomo.</p></li>
+        </ol>
+      </div>
+    </section>
 
-      <section class="contact" id="contacto">
-        <p class="section-label">Hablemos</p><h2>¿Tienes una idea o un desafío?</h2><p>Exploremos una forma clara y práctica de transformar tus datos en valor.</p>
-        <a class="button" href="mailto:contacto@valtum.cl">contacto@valtum.cl <span aria-hidden="true">→</span></a>
-      </section>
-    </main>
+    <!-- CASO -->
+    <section class="section case" id="caso">
+      <div class="wrap case-grid">
+        <div class="case-copy reveal">
+          <p class="kicker">Caso real · cliente anonimizado</p>
+          <h2>De diez cortes mensuales a un informe que responde preguntas.</h2>
+          <p class="who">Filial chilena de un fabricante automotriz global · red nacional de concesionarios</p>
+          <dl class="case-list">
+            <div><dt>El punto de partida</dt><dd>La información de usuarios de la red llegaba repartida en cortes mensuales. Para gestionar la dotación hacía falta verla como una sola historia en el tiempo.</dd></div>
+            <div><dt>Lo que construí</dt><dd>Un modelo de datos que integra diez cortes mensuales, y un informe en Power BI con indicadores de dotación, rotación y retención listos para explorar.</dd></div>
+            <div><dt>El resultado</dt><dd>Primera etapa entregada y aceptada por el cliente, junto con material de capacitación para que el equipo opere y entienda el informe por su cuenta.</dd></div>
+          </dl>
+        </div>
 
-    <footer><strong>VALTUM</strong><span>Business Intelligence · Datos · Automatización</span><span>© 2026 VALTUM</span></footer>
-  </body>
+        <figure class="flow reveal" aria-label="Esquema del proyecto: de diez cortes mensuales, a un modelo de datos, a tres indicadores">
+          <div class="flow-col">
+            <small>Entrada</small>
+            <div class="months" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            <strong>10 cortes mensuales</strong>
+          </div>
+          <div class="flow-arrow" aria-hidden="true"></div>
+          <div class="flow-col">
+            <small>Modelo</small>
+            <div class="model" aria-hidden="true"><i></i><i></i><i></i></div>
+            <strong>Modelo de datos unificado</strong>
+          </div>
+          <div class="flow-arrow" aria-hidden="true"></div>
+          <div class="flow-col">
+            <small>Salida</small>
+            <ul class="out"><li>Dotación</li><li>Rotación</li><li>Retención</li></ul>
+            <strong>Informe en Power BI</strong>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <!-- CAPACITACIÓN -->
+    <section class="section train" id="capacitacion">
+      <div class="wrap train-grid">
+        <div class="reveal">
+          <p class="kicker">Lo que diferencia a VALTUM</p>
+          <h2>Un informe que nadie sabe usar no sirve. Por eso también enseño.</h2>
+          <p class="sub">Mi trabajo de fondo ha sido formar personas en Power BI, desde nivel inicial hasta avanzado. Eso cambia cómo construyo: pienso cada informe para quien lo va a usar, y lo entrego con la capacitación que tu equipo necesita.</p>
+        </div>
+        <div class="train-list">
+          <article class="reveal"><h3>Incluida en el proyecto</h3><p>Cada entrega viene con sesiones de uso y material para que tu equipo no dependa de mí para mirar sus propios datos.</p></article>
+          <article class="reveal"><h3>Formación independiente</h3><p>Clases de Power BI para equipos, de lo básico a lo avanzado, con ejercicios sobre tu propio negocio.</p></article>
+          <article class="reveal"><h3>Documentación a mano</h3><p>Guías prácticas que quedan disponibles para consultar cuando nadie te pueda responder en el momento.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUIÉN -->
+    <section class="section who-sec" id="quien">
+      <div class="wrap who-grid">
+        <div class="portrait reveal">
+          <!-- Para usar una foto: reemplazar el <span class="mono"> por <img src="juan-pablo.jpg" alt="Juan Pablo Acevedo"> -->
+          <span class="mono" aria-hidden="true">JP</span>
+        </div>
+        <div class="reveal">
+          <p class="kicker">Quién está detrás</p>
+          <h2>Juan Pablo Acevedo</h2>
+          <p class="role">Consultor y relator de Power BI</p>
+          <p class="sub">VALTUM es mi consultoría. Me dedico a enseñar Power BI a equipos de empresas e instituciones, y hoy construyo las soluciones que antes enseñaba. Cuando trabajas conmigo hablas conmigo: no hay intermediarios ni equipos de relleno.</p>
+          <ul class="facts">
+            <li>Relator de Power BI, de nivel inicial a avanzado</li>
+            <li>Proyecto BI completo para una filial chilena de un fabricante automotriz global</li>
+            <li>Pocos proyectos a la vez, para cuidar cada uno</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="section" id="contacto">
+      <div class="wrap">
+        <div class="cta reveal">
+          <p class="kicker">Hablemos</p>
+          <h2>Cuéntame qué decisión quieres tomar mejor.</h2>
+          <p>Te respondo personalmente y te digo con honestidad si Power BI es la herramienta que necesitas.</p>
+          <a class="btn btn-lg" href="mailto:contacto@valtum.cl?subject=Consulta%20desde%20valtum.cl">contacto@valtum.cl <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap foot-in">
+      <strong>VALTUM</strong>
+      <span>Business Intelligence · Power BI · Capacitación</span>
+      <span>© 2026 VALTUM</span>
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
 </html>
